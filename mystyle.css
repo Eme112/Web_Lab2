@@ -1,0 +1,83 @@
+/*
+Styles used:
+1) background-color
+2) color
+3) padding
+4) display
+5) justify-content
+6) text-align
+7) font-size
+8) font-family
+9) display
+10) text-decoration
+11) text-transform
+12) letter-spacing
+*/
+
+body {
+  color: rgb(20,20,20);
+  padding: 40px;
+  font-family: Arial;
+}
+
+h3 {
+  color: #5050ff;
+  font-family: Verdana;
+}
+
+a:link { /* unvisited link*/
+  color: #3030ff;
+}
+
+a:visited { /* visited link */
+  color: #e000e0;
+}
+
+#container_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image_container {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+#head_container {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.blue_text {
+  color: #5050ff;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+.date {
+  text-decoration: underline;
+}
+
+.experience_topic {
+  color: #2020ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Helvetica;
+  font-size: 15px;
+}
